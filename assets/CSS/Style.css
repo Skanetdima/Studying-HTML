@@ -1,0 +1,124 @@
+#body__style {
+  background-color: gray;
+}
+
+/* Navigation */
+.main__nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__link {
+  font-family: "Anek Telugu", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.main__link:hover {
+  color: blue;
+}
+
+.main__link:after {
+  color: blue;
+}
+
+.main__container {
+  display: grid;
+}
+
+.main__h1 {
+  margin-top: 200px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 102.6px;
+  display: flex;
+  justify-content: center;
+  color: #ebaf0c;
+}
+
+.main__h3 {
+  margin-top: -70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  font-size: 24.8px;
+  justify-content: center;
+  color: #6f00e6;
+}
+
+.main__p {
+  font-family: "Anek Telugu", sans-serif;
+  color: #22ff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main__button__text {
+  font-family: "Open Sans";
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.main__button {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  width: 65px;
+  height: 65px;
+  margin: 0px auto;
+  border-radius: 50px;
+  align-items: center;
+}
+.main__button__image {
+  width: 18px;
+  height: 13px;
+  display: flex;
+}
+/* Containers With Course */
+.videocourse__container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.container__a {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.container__a:hover {
+  color: #22ff00;
+}
+.course__linked {
+  width: 175px;
+  margin-top: 49px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.image__container {
+  transition: 0.3s ease-in-out;
+}
+.image__container:hover {
+  background-image: url(/assets/Images/Video__arrow.png);
+}
